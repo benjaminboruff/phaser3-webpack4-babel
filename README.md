@@ -1,0 +1,1 @@
+### A simple template that integrates phaser version 3 with webpack 4, using babel env to transpile
