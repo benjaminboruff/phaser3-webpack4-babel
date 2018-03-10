@@ -2,9 +2,6 @@ const path = require('path')
 const webpack = require('webpack')
 
 module.exports = {
-    entry: {
-        app: './src/index.js'
-    },
     module: {
         rules: [
           {
@@ -25,9 +22,5 @@ module.exports = {
               'CANVAS_RENDERER': JSON.stringify(true),
               'WEBGL_RENDERER': JSON.stringify(true)
           })
-      ],
-      output: {
-          filename: '[name].bundle.js',
-          path: path.resolve(__dirname, 'dist')
-      }
+      ]
 }
