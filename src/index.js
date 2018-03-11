@@ -1,4 +1,4 @@
-import 'phaser'
+import Phaser from 'phaser'
 
 var config = {
     type: Phaser.AUTO,
@@ -16,7 +16,7 @@ var config = {
     }
 };
 
-var game = new Phaser.Game(config);
+var game = new Phaser.Game(config) //eslint-disable-line
 
 function preload ()
 {
